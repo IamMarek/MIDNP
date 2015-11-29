@@ -3,8 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lessons", "Lessons", "{6A9B4C0A-A6B8-41E4-87CF-EA3AA31EAB12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Practices", "Practices", "{BE016B76-7F10-478F-B72C-319FC7829829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{39D40412-117E-41D3-8F87-90A483398E5E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39D40412-117E-41D3-8F87-90A483398E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D40412-117E-41D3-8F87-90A483398E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D40412-117E-41D3-8F87-90A483398E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D40412-117E-41D3-8F87-90A483398E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39D40412-117E-41D3-8F87-90A483398E5E} = {BE016B76-7F10-478F-B72C-319FC7829829}
 	EndGlobalSection
 EndGlobal
