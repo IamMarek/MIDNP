@@ -8,7 +8,7 @@ namespace MIDNP.Linq
     public sealed class LinqToXmlTest
     {
         /// <summary>
-        /// Let's parse some XML in a way that doesn't cause you to stick your head into a washmashine. 0.5 points. 
+        /// Let's parse some XML in a way that doesn't cause you to stick your head into a washmashine.
         /// </summary>
         [TestMethod]
         public void Test1_XmlTransformation()
@@ -36,7 +36,7 @@ namespace MIDNP.Linq
         }
 
         /// <summary>
-        /// Transform a xml to a different xml. 1.5 points
+        /// Transform a xml to a different xml. 
         /// </summary>
         [TestMethod]
         public void Test2_XmlTransformation()

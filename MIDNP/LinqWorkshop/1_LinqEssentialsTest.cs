@@ -35,7 +35,7 @@ namespace MIDNP.Linq
         }
 
         /// <summary>
-        /// Uuuu. Let's get started. Pass this to get 1 point. 
+        /// Uuuu. Let's get started. 
         /// </summary>
         [TestMethod]
         public void Test1_Essentials()
@@ -71,7 +71,7 @@ namespace MIDNP.Linq
         }
 
         /// <summary>
-        /// Now some more magic tricks. 1 point. 
+        /// Now some more magic tricks. 
         /// </summary>
         [TestMethod]
         public void Test2_GroupBy()

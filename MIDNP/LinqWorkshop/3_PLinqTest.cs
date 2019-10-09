@@ -11,9 +11,6 @@ namespace MIDNP.Linq
     [TestClass]
     public sealed class PLinqTest
     {
-        /// <summary>
-        /// 1 point. 
-        /// </summary>
         [TestMethod]
         public void Test1_PrimeNumbers()
         {
@@ -26,7 +23,7 @@ namespace MIDNP.Linq
         }
 
         /// <summary>
-        /// Create a parallel spellchecker to find if an array of words is correctly spelled. 1 point. 
+        /// Create a parallel spellchecker to find if an array of words is correctly spelled. 
         /// </summary>
         [TestMethod]
         public void Test3_Spellchecker()
